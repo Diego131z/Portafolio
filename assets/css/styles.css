@@ -134,3 +134,9 @@ body{
   white-space:nowrap;     /* evita salto de línea */
   flex-shrink:0;          /* nunca se va abajo */
 }
+
+@media (max-width: 600px){
+  .swiper-blob{
+    right:-35%;
+  }
+}
